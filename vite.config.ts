@@ -1,7 +1,8 @@
-
-import { defineConfig } from 'vite';
-import cartographer from '@replit/vite-plugin-cartographer';
+import { defineConfig } from 'vite'
 
 export default defineConfig({
-  plugins: [cartographer()],
-});
+  plugins: [],
+  build: {
+    outDir: 'dist',
+  },
+})
