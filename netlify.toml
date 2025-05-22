@@ -1,0 +1,7 @@
+[build]
+  command = "npm install && npm install tailwindcss postcss autoprefixer @vitejs/plugin-react --save-dev && npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+  NODE_ENV = "production"
