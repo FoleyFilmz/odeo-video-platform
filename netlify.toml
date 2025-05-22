@@ -1,5 +1,5 @@
 [build]
-  command = "npm install && npm install tailwindcss postcss autoprefixer @vitejs/plugin-react --save-dev && npm run build"
+  command = "npm install && npm install tailwindcss postcss autoprefixer @vitejs/plugin-react @tanstack/react-query drizzle-orm drizzle-zod --save && npm run build"
   publish = "dist"
 
 [build.environment]
